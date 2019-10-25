@@ -1,2 +1,1 @@
-# MecanumRobot-ArduinoMega2560
-MecanumRobot-ArduinoMega2560
+This controller is included MEGA2560 board+ 4 channel motor driver board+ PS2 wireless controller, which can drive 4pcs motor with encoder specially for Mecanum wheel robot. It can move forward, backward, left, right, turn, sidesway, etc. What's more, you can develop it secondly, the driver board reserve servos interface can control the robot arm, can control the self-driving robot after adding a gyroscope because it can drive encoder motor.
