@@ -139,6 +139,24 @@ void RIGHT_3()
   MOTORA_STOP(Motor_PWM);MOTORB_BACKOFF(Motor_PWM);
   MOTORC_BACKOFF(Motor_PWM);MOTORD_STOP(Motor_PWM);
 }
+// ↓A-----B↑
+//  |     |
+//  |     |
+// ↓C-----D↑
+void TURN_LEFT()
+{
+  MOTORA_BACKOFF(Motor_PWM);MOTORB_FORWARD(Motor_PWM);
+  MOTORC_BACKOFF(Motor_PWM);MOTORD_FORWARD(Motor_PWM);  
+}
+// ↑A-----B↓
+//  |     |
+//  |     |
+// ↑C-----D↓
+void TURN_RIGHT()
+{
+  MOTORA_FORWARD(Motor_PWM);MOTORB_BACKOFF(Motor_PWM);
+  MOTORC_FORWARD(Motor_PWM);MOTORD_BACKOFF(Motor_PWM);  
+}
 //    =A-----B=  
 //     |  =  |
 //     |  =  |
@@ -314,6 +332,16 @@ void loop() {
     if (ps2x.Button(PSB_RED)) {
       Serial.println("motor_pmove_right");
       RIGHT_2();
+    }
+// Turn left
+    if(ps2x.Button(PSB_GREEN)) {
+      Serial.println("turn left");
+      TURN_LEFT();
+    }
+// Turn right
+    if(ps2x.Button(PSB_BLUE)) {
+      Serial.println("turn right");
+      TURN_RIGHT();
     }
     delay(20);
 
