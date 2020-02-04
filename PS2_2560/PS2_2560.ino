@@ -10,8 +10,8 @@
 #define DIRC1 43 
 #define DIRC2 42  //C电机方向
 #define PWMD 5    //D电机转速
-#define DIRD1 26  
-#define DIRD2 27  //D电机方向
+#define DIRD1 A4  //26  
+#define DIRD2 A5 //27  //D电机方向
 
 //PS2
 #define PS2_DAT        52  //14    
