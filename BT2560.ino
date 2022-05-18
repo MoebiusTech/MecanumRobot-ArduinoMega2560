@@ -5,7 +5,7 @@
 #define PWMB 8    //B电机转速
 #define DIRB1 37 
 #define DIRB2 36  //B电机方向
-#define PWMC 9   //C电机转速
+#define PWMC 6   //C电机转速  pin 9 change pin 6
 #define DIRC1 43 
 #define DIRC2 42  //C电机方向
 #define PWMD 5    //D电机转速
