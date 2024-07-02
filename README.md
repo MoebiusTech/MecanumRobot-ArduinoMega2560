@@ -16,5 +16,5 @@ note:The new version of the driver board corresponds to the schematic diagram, p
 4.In the Arduino IDE when the CH340 is connected you will see a COM Port in the Tools > Serial Port menu, the COM number for your device may vary depending on your system.
 
 ### Change the mega2560 diver sch and motor encoder interface:exchange 5V GND position
-![Encoder interface]((https://github.com/MoebiusTech/MecanumRobot-ArduinoMega2560/blob/master/Encoder%20interface.png
+![Encoder interface](https://github.com/MoebiusTech/MecanumRobot-ArduinoMega2560/blob/master/Encoder%20interface.png
  "Encoder interface")
