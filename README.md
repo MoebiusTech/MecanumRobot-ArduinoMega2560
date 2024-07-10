@@ -18,3 +18,5 @@ note:The new version of the driver board corresponds to the schematic diagram, p
 ### Change the mega2560 diver sch and motor encoder interface:exchange 5V GND position
 ![Encoder interface](https://github.com/MoebiusTech/MecanumRobot-ArduinoMega2560/blob/master/Motor%20interface.png
  "Encoder interface")
+## 
+If you have any problems, please contact us: Whatsapp:+86 13699824373; Email: moebius@mbeus.com
